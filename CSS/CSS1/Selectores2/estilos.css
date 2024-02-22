@@ -1,0 +1,12 @@
+td:nth-child(1) {background-color: red;}
+td:nth-child(2) {background-color: green;}
+td:nth-child(3) {background-color: blue;}
+
+.teal {color: teal;}
+.red {color: red;}
+.blue {color: blue;}
+.orange {color: orange;}
+.purple {color: purple;}
+.olive {color: olive;}
+.fuchsia {color: fuchsia;}
+.green {color: green;}

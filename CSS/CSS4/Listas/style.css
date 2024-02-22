@@ -1,0 +1,117 @@
+#conteiner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#header{
+  margin: 10px;
+  padding: 5px;
+  background-color: rgba(236, 236, 236, 0.56);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(80, 80, 80, 0.409);
+}
+
+.list1{
+  list-style: square;
+}
+
+.list2{
+  list-style: circle;
+}
+
+.list3{
+  list-style: disc;
+}
+
+.list4{
+  list-style: decimal;
+}
+
+.list5{
+  list-style: lower-alpha;
+}
+
+.list6{
+  list-style: upper-alpha;
+}
+
+.list7{
+  list-style: lower-roman;
+}
+
+.list8{
+  list-style: upper-roman;
+}
+
+.list9{
+  list-style: none;
+}
+
+.list10{
+  list-style: '\1F600';
+}
+
+.list11{
+  list-style-type: lower-greek;
+}
+
+.list12{
+  list-style-type: armenian;
+}
+
+.list13{
+  list-style-type: georgian;
+}
+
+.list14{
+  list-style-type: cjk-ideographic;
+}
+
+.list15{
+  list-style-type: hiragana;
+}
+
+.list16{
+  list-style-type: katakana;
+}
+
+.list17{
+  list-style-type: hiragana-iroha;
+}
+
+.list18{
+  list-style-type: katakana-iroha;
+}
+
+.list19{
+  list-style-type: '\1F436';
+}
+
+.list20{
+  list-style-type: '\1F437';
+}
+
+.list21{
+  list-style-type: '\1F438';
+}
+
+.list22{
+  list-style-type: '\1F439';
+}
+
+.list23{
+  list-style-type: '\1F43A';
+}
+
+.list24{
+  list-style-type: '\1F43B';
+}
+
+.list25{
+  list-style-type: '\1F43C';
+}
+
+.list26{
+  list-style-type: hebrew;
+}

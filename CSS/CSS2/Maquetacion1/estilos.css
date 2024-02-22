@@ -1,0 +1,28 @@
+body {
+  width: 960px;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+div:nth-child(2) {
+  width: 260px;
+  float: left;
+}
+
+div:nth-child(3) {
+  width: 700px;
+  float: right;
+}
+
+div:nth-child(3) > ul  {
+  display: flex;
+  padding: 0;
+}
+
+div:nth-child(3) > ul > li {
+  width: 230px;
+  list-style: none;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con Tailwind CSS</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-200">
+
+  <div class="container mx-auto mt-8">
+    <h1 class="text-3xl font-bold mb-4">Formulario de Contacto</h1>
+    <form class="space-y-4">
+
+        <!-- Nombre -->
+        <div>
+            <label for="nombre" class="block text-gray-700">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" class="input-field w-full bg-white border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+        </div>
+
+        <!-- Email -->
+        <div>
+            <label for="email" class="block text-gray-700">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Por favor, introduce una dirección de correo válida. (Ejemplo@abcd.com)" class="input-field w-full bg-white border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder:text-gray-600" required>
+        </div>
+
+        <!-- Teléfono -->
+        <div>
+            <label for="telefono" class="block text-gray-700">Teléfono:</label>
+            <input type="text" id="telefono" name="telefono" placeholder="Por favor, introduce un número de teléfono válido (Formato: XXX-XXX-XXXX)." class="input-field w-full bg-white border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder:text-gray-600" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        </div>
+
+        <!-- Mensaje -->
+        <div>
+            <label for="mensaje" class="block text-gray-700">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" class="w-full bg-white border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"></textarea>
+        </div>
+
+        <!-- Seleccionar -->
+        <div>
+            <label for="seleccion" class="block text-gray-700">Seleccionar:</label>
+            <select id="seleccion" name="seleccion" class="w-full bg-white border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                <option value="opcion1">Opción 1</option>
+                <option value="opcion2">Opción 2</option>
+                <option value="opcion3">Opción 3</option>
+            </select>
+        </div>
+
+        <!-- Preferencias -->
+        <div>
+            <label class="block text-gray-700">Preferencias:</label>
+            <div>
+                <label for="opcion1" class="inline-flex items-center">
+                    <input type="checkbox" id="opcion1" name="preferencias" value="opcion1" class="mr-2">
+                    Opción 1
+                </label>
+            </div>
+            <div>
+                <label for="opcion2" class="inline-flex items-center">
+                    <input type="checkbox" id="opcion2" name="preferencias" value="opcion2" class="mr-2">
+                    Opción 2
+                </label>
+            </div>
+            <div>
+                <label for="opcion3" class="inline-flex items-center">
+                    <input type="checkbox" id="opcion3" name="preferencias" value="opcion3" class="mr-2">
+                    Opción 3
+                </label>
+            </div>
+        </div>
+
+        <!-- Botón de Enviar -->
+        <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Enviar</button>
+    </form>
+</div>
+
+</body>
+</html>

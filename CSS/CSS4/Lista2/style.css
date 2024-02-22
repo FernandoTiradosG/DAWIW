@@ -1,0 +1,17 @@
+li {
+  width: 130px;
+  margin: 5px;
+  color: white;
+  background-color: blue;
+  text-align: center;
+}
+
+li:hover {
+  border: 1px solid red;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

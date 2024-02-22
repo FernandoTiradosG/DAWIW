@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Result Summary Component</title>
+  <link rel="stylesheet" href="./output.css">
+  <link rel="icon" href="./assets/images/favicon-32x32.png" type="image/png" sizes="32x32">
+
+  <style>
+    .attribution {font-size: 11px; text-align: center;}
+    .attribution a {color: hsl(228, 45%, 44%);}
+  </style>
+</head>
+<body class="flex items-center movile:justify-center text-lg w-screen h-screen font-Hanken">
+  <div class="flex movile:flex-row items-center justify-center movile:h-[400px] movile:w-[600px] w-fit movile:rounded-3xl flex-col movile:shadow-xl">
+    <div class="flex flex-col items-center justify-evenly text-white bg-gradient-to-b from-[#7857ff] to-[#201de7] movile:rounded-3xl movile:w-1/2 movile:h-[400px] rounded-b-3xl h-96">
+
+      <span class="text-gray-300 font-semibold">Your Result</span>
+      <div class="flex flex-col size-36 rounded-full bg-gradient-to-t from-[#7857ff] to-[#201de7] justify-center items-center gap-3 mg">
+        <span class="text-5xl font-bold">76</span>
+        <span class="text-xs text-gray-400">of 100</span>
+      </div>
+      <span class=" text-2xl font-semibold">Great</span>
+      <span class=" text-center text-sm w-4/5 movile:w-52 text-gray-300">You scored higher than 65% of the people who have taken these tests.</span>
+
+    </div>
+    <div class="w-11/12 movile:w-1/2 h-[400px] flex flex-col p-4 gap-4">
+      <span class="font-semibold">Summary</span>
+      <div class="bg-[#ff575720] text-[#ff5757] rounded-xl flex justify-between items-center p-4 h-12 font-semibold">
+        <span class="flex gap-2"><img src="./assets/images/icon-reaction.svg" alt="Reaction">Reaction</span>
+        <span class="text-gray-400"><span class="text-black">80</span> / 100</span>
+      </div>
+      <div class="bg-[#ffb01f20] text-[#ffb01f] rounded-xl flex justify-between items-center p-4 h-12 font-semibold">
+        <span class="flex gap-2"><img src="./assets/images/icon-memory.svg" alt="Reaction">Memory</span>
+        <span class="text-gray-400"><span class="text-black">92</span> / 100</span>
+      </div>
+      <div class="bg-[#00bd9120] text-[#00bd91] rounded-xl flex justify-between items-center p-4 h-12 font-semibold">
+        <span class="flex gap-2"><img src="./assets/images/icon-verbal.svg" alt="Reaction">Verbal</span>
+        <span class="text-gray-400"><span class="text-black">61</span> / 100</span>
+      </div>
+      <div class="bg-[#1125d420] text-[#1125d4] rounded-xl flex justify-between items-center p-4 h-12 font-semibold">
+        <span class="flex gap-2"><img src="./assets/images/icon-visual.svg" alt="Reaction">Visual</span>
+        <span class="text-gray-400"><span class="text-black">72</span> / 100</span>
+      </div>
+      <button class="bg-gradient-to-b from-[#7857ff] to-[#201de7] text-white font-semibold hover:bg-[#0b0f1b] p-4 rounded-3xl w-auto h-12 flex justify-center items-center mt-4">Continue</button>
+    </div>
+  </div>
+  
+</body>
+</html>

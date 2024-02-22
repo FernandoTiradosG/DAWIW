@@ -1,0 +1,20 @@
+body {
+  width: 100vh;
+}
+
+div {
+  width: 100%;
+  height: 5vh;
+  border: black 1px solid;
+}
+
+.color-1 {background-color: #FF0163;}
+.color-2 {background-color: #FE2073;}
+.color-3 {background-color: #FE3C82;}
+.color-4 {background-color: #FF5392;}
+.color-5 {background-color: #FF6FA4;}
+.color-6 {background-color: #FF87B4;}
+.color-7 {background-color: #FF9FC4;}
+.color-8 {background-color: #FEB5D2;}
+.color-9 {background-color: #FBCFDE;}
+.color-10 {background-color: #FFE5EE;}

@@ -1,0 +1,29 @@
+body {
+  width: 60em;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+div:nth-child(2) {
+  width: 16em;
+  float: left;
+}
+
+div:nth-child(3) {
+  width: 44em;
+  float: right;
+}
+
+div:nth-child(3) > ul  {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0;
+}
+
+div:nth-child(3) > ul > li {
+  list-style: none;
+  padding-right: 5px;
+}
